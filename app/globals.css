@@ -120,3 +120,28 @@
     @apply bg-background text-foreground;
   }
 }
+
+
+@layer components {
+  .gradiant-bg {
+    @apply bg-linear-65 from-purple-500 to-pink-500;
+  }
+  .button{
+    @apply cursor-pointer
+  }
+}
+
+@layer utilities {
+  @keyframes float {
+    0%, 100% {
+      transform: translateY(0px);
+    }
+    50% {
+      transform: translateY(-20px);
+    }
+  }
+
+  .animate-float {
+    animation: float 6s ease-in-out infinite;
+  }
+}
