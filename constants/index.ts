@@ -59,6 +59,8 @@ export const interviewer: CreateAssistantDTO = {
   },
 };
 
+//yo
+
 export const feedbackSchema = z.object({
   totalScore: z.number(),
   categoryScores: z.array(
