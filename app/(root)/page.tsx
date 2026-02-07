@@ -68,7 +68,7 @@ const page = async () => {
         <div className="mx-auto max-w-7xl">
           <div className="flex flex-col gap-8">
             <div className="space-y-2">
-              <h2 className="text-4xl font-bold tracking-tight">Your Interviews</h2>
+              <h2 className="text-8xl font-bold tracking-tight">Your Interviews</h2>
               <p className="text-muted-foreground text-lg">
                 Track your progress and review past interview sessions
               </p>
